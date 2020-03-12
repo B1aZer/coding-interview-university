@@ -489,6 +489,8 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
     - [x] Strings are immutable arrays
         - Array.from(string) - constructs array from string
         - String rewrite can be implemented with 2 pointers, one for read, one for write.
+        - Reverse words string can be implemented with one general pointer, and one that chacks the word completeness (start -> end)
+        - String can be changed in place with middle pivot by replacing characters
 
 - ### Linked Lists
     - [x] Description:
@@ -528,6 +530,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - Use 2 pointers, one with offset or faster.
         - Flatter with recursion
         - Use additional structure like queue or hash table
+        - Faster pointer can be simulated with next->next
 
 - ### Stack
     - [x] [Stacks (video)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
@@ -701,7 +704,13 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 
 ## Sorting
 
-- [ ] Notes:
+- [x] Notes:
+    - Quicksort nlogn, not stable, log n memory
+    - Merge sort, nlogn, stable, n memory
+    - heapsort, nlogn, not stable, log n memory
+    - insertion sort, n^2, stable, 1 memory
+    - bubble sort, n^2, stable, 1 memory
+    - binary tree sort, nlogb, stable, n memory
     - Implement sorts & know best case/worst case, average complexity of each:
         - no bubble sort - it's terrible - O(n^2), except when n <= 16
     - [ ] stability in sorting algorithms ("Is Quicksort stable?")
