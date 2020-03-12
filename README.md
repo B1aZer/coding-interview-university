@@ -479,10 +479,16 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
             - when popping an item, if size is 1/4 of capacity, resize to half
     - [x] Time
         - O(1) to add/remove at end (amortized for allocations for more space), index, or update
+        - O(1) lookup
         - O(n) to insert/remove elsewhere
     - [x] Space
         - contiguous in memory, so proximity helps performance
         - space needed = (array capacity, which is >= n) * size of item, but even if 2n, still O(n)
+
+- ### Strings
+    - [x] Strings are immutable arrays
+        - Array.from(string) - constructs array from string
+        - String rewrite can be implemented with 2 pointers, one for read, one for write.
 
 - ### Linked Lists
     - [x] Description:
@@ -518,6 +524,10 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
     - [x] Doubly-linked List
         - [Description (video)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
         - No need to implement
+    - [x] General techinques:
+        - Use 2 pointers, one with offset or faster.
+        - Flatter with recursion
+        - Use additional structure like queue or hash table
 
 - ### Stack
     - [x] [Stacks (video)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
