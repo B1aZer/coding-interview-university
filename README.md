@@ -447,7 +447,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 
 ## Data Structures
 
-- ### [x] Arrays
+- [x] ### Arrays
     - [x] Implement an automatically resizing vector. https://jsfiddle.net/b1azer/36aorLhy/
     - [x] Description:
         - [Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
