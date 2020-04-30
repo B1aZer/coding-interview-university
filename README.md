@@ -598,7 +598,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - binary search (on sorted array of integers)
         - binary search using recursion
 
-- ### Bitwise operations [ ]
+- ### Bitwise operations [x]
     - [x] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
     - [x] Get a really good understanding of manipulating bits with: &, |, ^, ~, >>, <<
         - [ ] [words](https://en.wikipedia.org/wiki/Word_(computer_architecture))
